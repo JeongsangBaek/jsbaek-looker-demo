@@ -764,7 +764,7 @@ view: games_wide {
   }
   measure: maxPitchSpeed {
     type: max
-    sql: MAX(${TABLE}.pitchSpeed) ;;
+    sql: ${TABLE}.pitchSpeed;;
   }
 
   # ----- Sets of fields for drilling ------
