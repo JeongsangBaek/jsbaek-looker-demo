@@ -766,6 +766,10 @@ view: games_wide {
     type: max
     sql: ${TABLE}.pitchSpeed;;
   }
+  measure: minPitchSpeed {
+    type: min
+    sql: ${TABLE}.pitchSpeed ;;
+  }
 
   # ----- Sets of fields for drilling ------
   set: detail {
