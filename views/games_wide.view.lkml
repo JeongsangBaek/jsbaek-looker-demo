@@ -762,6 +762,10 @@ view: games_wide {
     type: average
     sql: ${TABLE}.pitchSpeed;;
   }
+  measure: maxPitchSpeed {
+    type: max
+    sql: MAX(${TABLE}.pitchSpeed) ;;
+  }
 
   # ----- Sets of fields for drilling ------
   set: detail {
